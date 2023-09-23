@@ -1,0 +1,22 @@
+<!-- wp:template-part {"slug":"header-with-cart","tagName":"header"} /-->
+
+<!-- wp:pattern {"slug":"drinkify-lite/shop-header"} /-->
+
+
+<!-- wp:group {"tagName":"main"} -->
+<main class="wp-block-group">
+  <!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+  <div class="wp-block-group alignfull">
+    <!-- wp:woocommerce/all-products {"columns":4,"rows":3,"alignButtons":false,"contentVisibility":{"orderBy":true},"orderby":"date","layoutConfig":[["woocommerce/product-image",{"imageSizing":"cropped"}],["woocommerce/product-title"],["woocommerce/product-price"],["woocommerce/product-rating"],["woocommerce/product-button"]],"align":"wide"} -->
+    <div class="wp-block-woocommerce-all-products alignwide wc-block-all-products"
+      data-attributes='{"align":"wide","alignButtons":false,"columns":4,"contentVisibility":{"orderBy":true},"isPreview":false,"layoutConfig":[["woocommerce/product-image",{"imageSizing":"cropped"}],["woocommerce/product-title"],["woocommerce/product-price"],["woocommerce/product-rating"],["woocommerce/product-button"]],"orderby":"date","rows":3}'>
+    </div>
+    <!-- /wp:woocommerce/all-products -->
+  </div>
+  <!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+
+
+<!-- wp:template-part {"slug":"footer-with-three-columns","tagName":"footer"} /-->
